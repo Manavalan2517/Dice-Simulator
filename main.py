@@ -14,7 +14,7 @@ app.title("Dice Roll")
 app.geometry("350x200")
 app.grid_columnconfigure(0, weight=1)
 
-button = customtkinter.CTkButton(app, text="my button", command=button_callback)
+button = customtkinter.CTkButton(app, text="ROLL", command=button_callback)
 button.grid(row=0, column=0, padx=20, pady=20)
 
 app.mainloop()
